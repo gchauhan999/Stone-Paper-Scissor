@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: rgb(103, 22, 110);
+    color: rgb(250, 248, 249);
+    line-height: 5rem;
+}
+.choice {
+    border-radius: 100%;
+}
+.choice:hover{
+    opacity: 0.5;
+    background-color:rgb(103, 22, 110) ;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+.score-board{
+    color:rgb(103, 22, 110) ;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.msg-container{
+    color:rgb(103, 22, 110) ;
+    text-align: center;
+    margin-top: 20px;
+
+}
